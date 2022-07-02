@@ -40,6 +40,11 @@
 		td{
 		  height: 40px;
 		}
+		
+		tr:nth-child(odd) {
+		background: #C0C0C0;
+		}
+		
 	
 	</style>
 	
