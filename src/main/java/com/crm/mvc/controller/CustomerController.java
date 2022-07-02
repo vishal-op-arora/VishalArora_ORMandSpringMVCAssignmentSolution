@@ -25,7 +25,7 @@ public class CustomerController {
  
     @Autowired
     private CustomerService customerService;
- 
+    
     @RequestMapping(value = "/listCustomer")
     public ModelAndView listCustomer(ModelAndView model) throws IOException {
         List<Customer> listCutomers = customerService.getAllCustomers();
@@ -44,8 +44,7 @@ public class CustomerController {
  
     @RequestMapping(value = "/saveCustomer", method = RequestMethod.POST)
     public ModelAndView saveCustomer(@ModelAttribute Customer customer) {
-        if (customer.getId() == 0) { // if employee id is 0 then creating the
-            // employee other updating the employee
+        if (customer.getId() == 0) {
             customerService.addCustomer(customer);
         } else {
             customerService.updateCustomer(customer);
