@@ -44,8 +44,7 @@
 	<body>
 		<div align="center">
 			<div class="myDiv">
-				<h1 style="position: relative; top: 30%;">CUSTOMER RELATIONSHIP
-					MANAGER</h1>
+				<h1 style="position: relative; top: 30%;">CUSTOMER RELATIONSHIP	MANAGER</h1>
 			</div>
 			<h2>Save Customer</h2>
 			<form:form name="myForm" action="saveCustomer" method="post"
@@ -68,8 +67,8 @@
 								style="height:20px;width:350px" /></td>
 					</tr>
 					<tr>
-						<td colspan="2" align="center" style="height: 80px"><input
-							type="submit" style="height: 30px; width: 100px" value="Save"></td>
+						<td colspan="2" align="center" style="height: 80px">
+						<input type="submit" style="height: 30px; width: 100px" value="Save"></td>
 					</tr>
 				</table>
 			</form:form>

@@ -50,7 +50,9 @@
 	
 	<body>
 	    <div align="center">
-	        <div class="myDiv" ><h1 style="position:relative;top:30%;">CUSTOMER RELATIONSHIP MANAGER</h1></div>
+	        <div class="myDiv" >
+	        	<h1 style="position:relative;top:30%;">CUSTOMER RELATIONSHIP MANAGER</h1>
+        	</div>
 	        
 	        <br><br>
 	        <form>
